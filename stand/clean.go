@@ -7,7 +7,6 @@ import (
 )
 
 /*
-*
 我输入的字节流包括xml的控制语句，我需要删除这些语句，只保留xml中的正文内容。
 */
 func Clean(text []byte) []byte {
